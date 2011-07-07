@@ -70,19 +70,20 @@ text-decoration: underline;
 
 
 /* Sign up button */
+/* Share */
 a.signup_button {
 margin-left: auto;
 margin-right: auto;
 display:inline-block;
 text-align: center;
-width: 180px;
+width: 150px;
 color: #fff;
 background: #006400;
 font-size: 130%;
 font-weight: bold;
 padding: 15px;
 }
-
+/*Search */
 .signup_button {
 	margin-left: auto;
 	margin-right: auto;
@@ -90,7 +91,7 @@ padding: 15px;
 	text-align: center;
 	width: 170px;
 	color: #fff;
-	background: #006400;
+	background: #09c;
 	font-size: 130%;
 	font-weight: bold;
 	padding: 15px;
