@@ -1,0 +1,26 @@
+<% if signed_in? %>
+	<table class="front" summary="For signed-in users">
+		<tr>
+			<td class="main">
+				<h1>Current Listings</h1>
+				<%= render 'shared/list' %>
+			</td>
+			<td class="sidebar round">
+			<%= render 'shared/user_info' %>
+			</td>
+		</tr>
+	</table>
+<% else %>
+
+<div class = "searchform">
+	
+<% form_tag listings_path, :method => 'get' do %>
+<%= text_field_tag :search, params[:search], :class => "search_height" %>
+</br>
+
+<%= submit_tag "Search", :name => nil, :class => "signup_button round" %>
+<%= link_to "Share", signin_path, :class => "signup_button round" %>
+</div> 
+
+<% end %>
+<% end %>

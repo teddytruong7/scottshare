@@ -1,0 +1,22 @@
+<table class ="profile" summary="Profile Information">
+	<tr>
+		<td class="main">
+			<h1>
+				<%= link_to @user.name, user_path(current_user) %>
+			</h1>
+			<h1 class="micropost">What would you like to share?</h1>
+			<%= render 'shared/micropost_form' %>
+	<% unless @user.microposts.empty? %>
+	<table class="microposts" summary="User Posts">
+	<%= render @microposts %>
+	</table>
+	<%= will_paginate @microposts %>
+	<% end %>
+	</td>
+	<td class="sidebar round">
+		<strong>Name</strong> <%= @user.name %><br />
+		<strong>URL</strong> <%= link_to user_path(@user), @user %><br />
+		<strong>Ads so far</strong> <%= @user.microposts.count %>
+	</td>
+  </tr>
+</table>

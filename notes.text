@@ -1,0 +1,20 @@
+elyos: teddytruong7: if you want to grab all the feed_items you would set an instance variable in that controller like @all_posts = YourPostModel.all
+[7:06pm] elyos: teddytruong7: and then of course you can chain that into your pagination stuff
+
+elyos: yes, if you want ALL, regardless of user, then you just concern your db query with the posts table, and don't scope it through current_user
+
+daze21: In the view, surrounding the area where the ability to see/comment posts is, put <% if logged_in? %> ..... <% end %>.  Then, in your ApplicationHelper, define the logged_in? method as appropriate.
+
+
+krz help:
+he told me to change current_user.feed.paginate to Micropost.paginate simply because all of the microposts go through that model. at first he told me to make it Feed.paginate, but silly me didn't have a feed model. Microposts directs feed. so Micropost.paginate worked in the end. Beautiful.
+
+krz: there are ways to refactor your code out further. since clogging everything up in the MicroPost index action can make things messy looking
+[11:00pm] eggie5 joined the chat room.
+[11:00pm] krz: like adding a member route called search on the micropost controller
+
+
+
+IT NEEDS TO SEARCH THROUGH THE ACTUAL LISTING
+
+what we haave is a FEED what we want is  a LISTING

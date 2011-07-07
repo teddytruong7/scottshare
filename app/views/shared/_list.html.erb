@@ -1,0 +1,5 @@
+<% unless @listings.empty? %>
+  <table class="microposts" summary="User microposts">
+      <%= render :partial => 'shared/listing', :collection => @listings %>
+  </table>
+<% end %>

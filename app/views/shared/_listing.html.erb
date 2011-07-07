@@ -1,0 +1,24 @@
+<tr>  
+  <td class="micropost">
+    
+    <span class="user">
+    <%= link_to listing.user.name, listing.user %>
+    </span>
+    <span class="content"><%=listing.item %>
+                <%= listing.description %>
+                <%= listing.location %>
+                <%=listing.contact %>
+      </span>
+  
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(listing.created_at) %> ago.
+  </span>
+  </td>
+  <% if current_user?(listing.user) %>
+  <td>
+  <%= link_to "delete", listing, :method => :delete,
+                   :confirm => "You sure?",
+                   :title => listing.item %>
+  </td>
+  <%  end %>
+</tr>

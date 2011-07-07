@@ -1,0 +1,113 @@
+commit ce3e6b1e14cd5e4a9115a16b0d810da0f14e0376
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Mon Jun 27 20:00:45 2011 -0700
+
+    Editing and updating users
+
+commit dcb912c283ecf8bd8ead226390abdb08a056b583
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Sun Jun 26 22:58:31 2011 -0700
+
+    Finished with user sign in
+
+commit c55edc23e323085acdbf93c193d254aed3112311
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Sat Jun 25 20:41:45 2011 -0700
+
+    finished user signup
+
+commit 5675f552fbffd29ad259257b313453df3fab8ee4
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Sat Jun 25 17:14:27 2011 -0700
+
+    Added a signup form
+
+commit bf79ce36ec77bfe141a4b20d0364bbc439b30914
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Sat Jun 25 16:10:57 2011 -0700
+
+    Added styling a and a sidebar
+
+commit a5ecfbae5cc9f0a8eb18442e46352da281a9f0f8
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Sat Jun 25 15:48:43 2011 -0700
+
+    Added gravatar, finished half of User model
+
+commit 6e784f0a147402d2807ede1e97a9664863142d90
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Fri Jun 24 22:12:03 2011 -0700
+
+    Finished the passwords and stuffff
+
+commit 32d6848645075c6fa89a527935c242cff12a5966
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Fri Jun 24 18:26:31 2011 -0700
+
+    User model validations
+
+commit 240f0c87ddf737c107c3ec31e31a9118e268abb0
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Thu Jun 23 23:56:01 2011 -0700
+
+    created a user model
+
+commit ec13ec82cce1a8af1a734143517d2e3ad7e62e47
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Thu Jun 23 20:13:00 2011 -0700
+
+    finished layout and routes
+
+commit 6a468148c008d87b3c680fe3982420df0cfd16c0
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Thu Jun 23 19:49:58 2011 -0700
+
+    removed default rails page
+
+commit 6fcdc9bc592af6c85a6499035528aed066d2fb67
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Thu Jun 23 17:51:21 2011 -0700
+
+    done with static pages
+
+commit 6ab1f88a68c5cc5c034d3258c725d4c12eca661b
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Thu Jun 23 17:05:23 2011 -0700
+
+    Commit
+
+commit 8c51f02e2b85c837b39eedc2e3e34e3f11d57140
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Thu Jun 23 16:48:40 2011 -0700
+
+    Fixed Github, Finally Committed
+
+commit b65bc937ca0349f28bd211749692b6922cb886ee
+Author: Teddy Truong <teddytruong7@gmail.com>
+Date:   Wed Jun 22 00:09:38 2011 -0700
+
+    Done with static pages
+
+commit 7f8fbca05273bf636efc51b5c998d46b8f8d1f54
+Author: Teddy Truong <teddytruong@gmail.com>
+Date:   Tue Jun 21 21:22:58 2011 -0700
+
+    Added a Pages controller
+
+commit b413fd30fba284ace138d99101bfcc8c43e86259
+Author: Teddy Truong <teddytruong@gmail.com>
+Date:   Tue Jun 21 20:59:53 2011 -0700
+
+    first commit
+
+commit 9f4c787209dd3f5c6b960f88d7fa96e88d277f48
+Author: Teddy Truong <teddytruong@gmail.com>
+Date:   Tue Jun 21 20:35:55 2011 -0700
+
+    Improved the README
+
+commit 599792448f09857b86372a4c5d2a3a4566c11f69
+Author: Teddy Truong <teddytruong@gmail.com>
+Date:   Tue Jun 21 20:35:05 2011 -0700
+
+    Initial commit
