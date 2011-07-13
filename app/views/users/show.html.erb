@@ -4,13 +4,19 @@
 			<h1>
 				<%= link_to @user.name, user_path(current_user) %>
 			</h1>
-			<h1 class="micropost">What would you like to share?</h1>
+			<% if current_user?(@user) %>
+			<h2 class="micropost">What would you like to share?</h2>
 			<%= render 'shared/micropost_form' %>
+			<% else %>
+			<% end %>
 	<% unless @user.microposts.empty? %>
 	<table class="microposts" summary="User Posts">
 	<%= render @microposts %>
 	</table>
 	<%= will_paginate @microposts %>
+	<% end %>
+	<% if @user.microposts.empty? %>
+	<h3> Sorry, this user has no classifieds listed yet.</h3>
 	<% end %>
 	</td>
 	<td class="sidebar round">
